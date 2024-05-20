@@ -1,1 +1,3 @@
 .prettier-cache
+Cargo.lock
+target/

@@ -32,4 +32,41 @@ repos:
           ]
 ```
 
+### `cargo-build-all-features`
+
+Build crate with all feature flag combinations. See [cargo-all-features].
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pre-commit-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: cargo-build-all-features
+```
+
+### `cargo-check-all-features`
+
+Check crate with all feature flag combinations. See [cargo-all-features].
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pre-commit-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: cargo-check-all-features
+```
+
+### `cargo-test-all-features`
+
+Test crate with all feature flag combinations. See [cargo-all-features].
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pre-commit-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: cargo-test-all-features
+```
+
 [cargo-readme]: https://github.com/webern/cargo-readme
+[cargo-all-features]: https://github.com/frewsxcv/cargo-all-features

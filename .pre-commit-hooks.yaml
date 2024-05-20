@@ -1,10 +1,43 @@
+# cargo-readme
 - id: cargo-readme
   name: cargo-readme
-  description: Generate README.md from docstrings
-  entry: cargo-readme readme
+  alias: cargo-readme
+  description: Generate README.md from docstrings.
   language: rust
+  entry: cargo-readme readme
   files: (README\.tpl)|(\.(md)|(rs))$
   args: [--output=README.md]
   pass_filenames: false
   additional_dependencies: [cli:cargo-readme]
+  minimum_pre_commit_version: "2.21.0"
+
+# cargo-all-features
+- id: cargo-build-all-features
+  name: cargo-build-all-features
+  alias: cargo-build-all-features
+  description: Build crate with all feature flag combinations.
+  language: rust
+  entry: cargo-build-all-features build-all-features
+  pass_filenames: false
+  additional_dependencies: [cli:cargo-all-features]
+  minimum_pre_commit_version: "2.21.0"
+
+- id: cargo-check-all-features
+  name: cargo-check-all-features
+  alias: cargo-check-all-features
+  description: Check crate with all feature flag combinations.
+  language: rust
+  entry: cargo-check-all-features check-all-features
+  pass_filenames: false
+  additional_dependencies: [cli:cargo-all-features]
+  minimum_pre_commit_version: "2.21.0"
+
+- id: cargo-test-all-features
+  name: cargo-test-all-features
+  alias: cargo-test-all-features
+  description: Test crate with all feature flag combinations.
+  language: rust
+  entry: cargo-test-all-features test-all-features
+  pass_filenames: false
+  additional_dependencies: [cli:cargo-all-features]
   minimum_pre_commit_version: "2.21.0"

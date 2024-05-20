@@ -7,4 +7,4 @@
   args: [--output=README.md]
   pass_filenames: false
   additional_dependencies: [cli:cargo-readme]
-  minimum_pre_commit_version: '2.21.0'
+  minimum_pre_commit_version: "2.21.0"

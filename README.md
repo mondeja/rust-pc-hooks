@@ -24,11 +24,12 @@ repos:
     rev: vX.Y.Z
     hooks:
       - id: cargo-readme
-        args: [
-          --project-root=my-subdirectory,
-          --output=../README.md,
-          --template=../README.tpl,
-        ]
+        args:
+          [
+            --project-root=my-subdirectory,
+            --output=../README.md,
+            --template=../README.tpl,
+          ]
 ```
 
 [cargo-readme]: https://github.com/webern/cargo-readme

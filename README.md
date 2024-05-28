@@ -68,5 +68,18 @@ repos:
       - id: cargo-test-all-features
 ```
 
+### `leptosfmt`
+
+Format Leptos `view!` macros with `leptosfmt`. See [leptosfmt].
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pre-commit-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: cargo-test-all-features
+```
+
 [cargo-readme]: https://github.com/webern/cargo-readme
 [cargo-all-features]: https://github.com/frewsxcv/cargo-all-features
+[leptosfmt]: https://github.com/bram209/leptosfmt

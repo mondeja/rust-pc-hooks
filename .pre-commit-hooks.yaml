@@ -41,3 +41,16 @@
   pass_filenames: false
   additional_dependencies: [cli:cargo-all-features]
   minimum_pre_commit_version: "2.21.0"
+
+# leptosfmt
+- id: leptosfmt
+  name: leptosfmt
+  alias: leptosfmt
+  description: Format Leptos view! macros with leptosfmt.
+  language: rust
+  entry: leptosfmt
+  types: [rust]
+  pass_filenames: true
+  additional_dependencies: [cli:leptosfmt]
+  args: [--quiet]
+  minimum_pre_commit_version: "2.21.0"

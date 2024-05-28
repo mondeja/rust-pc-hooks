@@ -70,7 +70,7 @@ repos:
 
 ### `leptosfmt`
 
-Format [Leptos' `view!` macros] with `leptosfmt`. See [leptosfmt].
+Format [Leptos' `view!` macros]. See [leptosfmt].
 
 ```yaml
 repos:

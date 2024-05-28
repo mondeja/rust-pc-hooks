@@ -70,7 +70,7 @@ repos:
 
 ### `leptosfmt`
 
-Format Leptos `view!` macros with `leptosfmt`. See [leptosfmt].
+Format [Leptos' `view!` macros] with `leptosfmt`. See [leptosfmt].
 
 ```yaml
 repos:
@@ -83,3 +83,4 @@ repos:
 [cargo-readme]: https://github.com/webern/cargo-readme
 [cargo-all-features]: https://github.com/frewsxcv/cargo-all-features
 [leptosfmt]: https://github.com/bram209/leptosfmt
+[Leptos' `view!` macros]: https://docs.rs/leptos/latest/leptos/macro.view.html

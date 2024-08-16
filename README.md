@@ -1,4 +1,4 @@
-# rust-pc-hooks
+# mondeja/rust-pc-hooks
 
 My useful [pre-commit] hooks for Rust.
 

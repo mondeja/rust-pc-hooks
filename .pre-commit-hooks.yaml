@@ -14,7 +14,7 @@
 # cargo-all-features
 - id: cargo-build-all-features
   name: cargo-build-all-features
-  alias: cargo-build-all-features
+  alias: build-all-features
   description: Build crate with all feature flag combinations.
   language: rust
   entry: cargo-build-all-features build-all-features
@@ -24,7 +24,7 @@
 
 - id: cargo-check-all-features
   name: cargo-check-all-features
-  alias: cargo-check-all-features
+  alias: check-all-features
   description: Check crate with all feature flag combinations.
   language: rust
   entry: cargo-check-all-features check-all-features
@@ -34,7 +34,7 @@
 
 - id: cargo-test-all-features
   name: cargo-test-all-features
-  alias: cargo-test-all-features
+  alias: test-all-features
   description: Test crate with all feature flag combinations.
   language: rust
   entry: cargo-test-all-features test-all-features

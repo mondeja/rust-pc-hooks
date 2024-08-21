@@ -68,6 +68,18 @@ repos:
       - id: cargo-test-all-features
 ```
 
+### `cargo-machete`
+
+Check unused dependencies. See [cargo-machete].
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pc-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: cargo-machete
+```
+
 ### `leptosfmt`
 
 Format [Leptos' `view!` macros]. See [leptosfmt].
@@ -85,3 +97,4 @@ repos:
 [cargo-all-features]: https://github.com/frewsxcv/cargo-all-features
 [leptosfmt]: https://github.com/bram209/leptosfmt
 [Leptos' `view!` macros]: https://docs.rs/leptos/latest/leptos/macro.view.html
+[cargo-machete]: https://github.com/bnjbvr/cargo-machete

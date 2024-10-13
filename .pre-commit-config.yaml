@@ -25,8 +25,7 @@ repos:
     hooks:
       - id: markdownlint-cli2
         exclude: ^LICENSE\.md$
-  - repo: https://github.com/tcort/markdown-link-check
-    rev: v3.12.2
+  - repo: https://github.com/mondeja/rust-pc-hooks
+    rev: v1.3.0
     hooks:
-      - id: markdown-link-check
-        name: markdown-link-check
+      - id: lychee

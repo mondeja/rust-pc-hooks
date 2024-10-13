@@ -65,3 +65,16 @@
   additional_dependencies: [cli:leptosfmt]
   args: [--quiet]
   minimum_pre_commit_version: "2.21.0"
+
+# lychee
+- id: lychee
+  name: lychee
+  description: "Run nightly 'lychee' standalone for fast, async, stream-based link checking"
+  entry: lychee
+  language: rust
+  args: ["--no-progress"]
+  types: [text]
+  pass_filenames: true
+  require_serial: true
+  additional_dependencies: [cli:lychee]
+  minimum_pre_commit_version: "2.21.0"

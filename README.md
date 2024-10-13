@@ -82,7 +82,8 @@ repos:
 
 ### `lychee`
 
-Run nightly 'lychee' standalone for fast, async, stream-based link checking.
+Run nightly [`lychee`][`lychee` repository] standalone for fast, async,
+stream-based link checking.
 
 The [`lychee` repository] includes two hooks for pre-commit, but they need to
 have installed `lychee` or `docker` in order to work standalone. This hook

@@ -67,7 +67,7 @@
   minimum_pre_commit_version: "2.21.0"
 
 # lychee
-- id: lychee-rust
+- id: lychee
   name: lychee
   description: "Run nightly 'lychee' standalone for fast, async, stream-based link checking"
   entry: lychee

@@ -80,6 +80,22 @@ repos:
       - id: cargo-machete
 ```
 
+### `lychee`
+
+Run nightly 'lychee' standalone for fast, async, stream-based link checking.
+
+The [`lychee` repository] includes two hooks for pre-commit, but they need to
+have installed `lychee` or `docker` in order to work standalone. This hook
+uses pre-commit's Rust machinery to run `lychee` standalone.
+
+```yaml
+repos:
+  - repo: https://github.com/mondeja/rust-pc-hooks
+    rev: vX.Y.Z
+    hooks:
+      - id: lychee
+```
+
 ### `leptosfmt`
 
 Format [Leptos' `view!` macros]. See [leptosfmt].
@@ -98,3 +114,4 @@ repos:
 [leptosfmt]: https://github.com/bram209/leptosfmt
 [Leptos' `view!` macros]: https://docs.rs/leptos/latest/leptos/macro.view.html
 [cargo-machete]: https://github.com/bnjbvr/cargo-machete
+[`lychee` repository]: https://github.com/lycheeverse/lychee
